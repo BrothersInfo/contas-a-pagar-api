@@ -13,9 +13,7 @@ Uma API RESTful para gerenciar contas a pagar, permitindo operações CRUD, aute
     - [Contas a Pagar](#contas-a-pagar)
     - [Importação e Exportação CSV](#importação-e-exportação-csv)
 - [Documentação da API](#documentação-da-api)
-- [Executando Testes](#executando-testes)
-- [Contribuição](#contribuição)
-- [Licença](#licença)
+
 
 ## Visão Geral
 
