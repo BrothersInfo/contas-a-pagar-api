@@ -145,3 +145,5 @@ A API de Contas a Pagar permite gerenciar contas a pagar, incluindo operações 
 A documentação completa da API pode ser acessada via Swagger UI após iniciar a aplicação:
 
 [Swagger UI](http://localhost:8080/swagger-ui/index.html)
+
+OBS: Para o endpoint de importação de arquivo tem um modelo na raiz do projeto(contas-a-pagar.csv).
