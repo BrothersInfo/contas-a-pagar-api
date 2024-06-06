@@ -48,8 +48,8 @@ public class BillController {
 
     @Operation(summary = "Listar todas as contas", description = "Retorna uma lista de todas as contas a pagar")
     @Parameters({
-            @Parameter(name = "page", description = "Número da página (valor padrão: 0)", example = "0"),
-            @Parameter(name = "size", description = "Tamanho da página (valor padrão: 10)", example = "10")
+            @Parameter(name = "page", description = "Número da página", example = "0"),
+            @Parameter(name = "size", description = "Tamanho da página", example = "10")
     })
     @GetMapping
     @ResponseStatus(HttpStatus.OK)
@@ -76,10 +76,10 @@ public class BillController {
     @Operation(summary = "Filtrar contas por data de vencimento e descrição",
             description = "Retorna uma página de contas que correspondem aos filtros de data de vencimento e descrição.")
     @Parameters({
-            @Parameter(name = "dataVencimento", description = "Data de vencimento (valor padrão: 2024-06-06)", example = "2024-06-06"),
-            @Parameter(name = "descricao", description = "Descrição (Conta de Agua)", example = "Conta de Agua"),
-            @Parameter(name = "page", description = "Número da página (valor padrão: 0)", example = "0"),
-            @Parameter(name = "size", description = "Tamanho da página (valor padrão: 10)", example = "10")
+            @Parameter(name = "dataVencimento", description = "Data de vencimento", example = "2024-06-06"),
+            @Parameter(name = "descricao", description = "Descrição", example = "Conta de Agua"),
+            @Parameter(name = "page", description = "Número da página", example = "0"),
+            @Parameter(name = "size", description = "Tamanho da página", example = "10")
     })
     @GetMapping("/find-by-filters")
     @ResponseStatus(HttpStatus.OK)
@@ -101,7 +101,7 @@ public class BillController {
     @Operation(summary = "Atualizar status da conta",
             description = "Atualiza o status de uma conta específica pelo ID.")
     @Parameters({
-            @Parameter(name = "situacao", description = "Status da Conta a Pagar (Paga: 10)", example = "Paga")
+            @Parameter(name = "situacao", description = "Status da Conta a Paga", example = "Paga")
     })
     @PutMapping("/{id}/status")
     @ResponseStatus(HttpStatus.OK)
