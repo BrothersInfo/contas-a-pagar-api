@@ -147,7 +147,3 @@ A API de Contas a Pagar permite gerenciar contas a pagar, incluindo operações 
 A documentação completa da API pode ser acessada via Swagger UI após iniciar a aplicação:
 
 [Swagger UI](http://localhost:8080/swagger-ui/index.html)
-
-
-git config --global user.name "Cosme Ribeiro da Silva"
-git config --global user.email "fredekel@gmail.com"
